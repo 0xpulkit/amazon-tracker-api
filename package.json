@@ -1,0 +1,30 @@
+{
+  "name": "amazon-tracker-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.2.1",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "knex": "^0.21.1",
+    "nightmare": "^3.0.2",
+    "node-cron": "^2.0.3",
+    "node-mailer": "^0.1.1",
+    "nodemailer": "^6.4.10",
+    "pg": "^8.2.1",
+    "sqlite3": "^4.2.0",
+    "valid-email": "^1.0.1",
+    "valid-url": "^1.0.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
